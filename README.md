@@ -1,5 +1,5 @@
 # <p align="center">Creating a custom drupal theme to get acquainted with Drupal 8</p>
-# Project structure
+# Theme structure
 ```bash
 ├── css
 │   ├── main.css
