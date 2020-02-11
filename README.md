@@ -3,16 +3,16 @@
 ```bash
 ├── css
 │   ├── main.css
-│   ├── sidebar.css
+│   └── sidebar.css
 │
 ├── images
 │   ├── awesome.jpg
 │   ├── logo.png
-│   ├── pageicon.ico
+│   └── pageicon.ico
 │
 ├── js
 │   ├── main.js
-│   ├── sidebar.js
+│   └── sidebar.js
 │
 ├── templates
 │   ├── block.html.twig
@@ -22,7 +22,7 @@
 │   ├── region--footer.html.twig
 │   ├── region--header.html.twig
 │   ├── region--sidebar.html.twig
-│   ├── region.html.twig
+│   └── region.html.twig
 │
 ├── cdp_theme.breakpoints.yml
 ├── cdp_theme.info.yml
