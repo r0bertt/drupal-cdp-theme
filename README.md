@@ -26,5 +26,5 @@
 │
 ├── cdp_theme.breakpoints.yml
 ├── cdp_theme.info.yml
-├── cdp_theme.libraries.yml
+└── cdp_theme.libraries.yml
 ```
