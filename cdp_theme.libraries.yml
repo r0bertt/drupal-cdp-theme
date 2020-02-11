@@ -1,0 +1,21 @@
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/main.css: {}
+      css/sidebar.css: {}
+
+global-scripts:
+  version: 1.x
+  js:
+    js/main.js: {}
+    js/sidebar.js: {}
+
+custom-styling:
+  version: 1.x
+  css:
+    theme:
+      css/sidebar.css: {}
+  js:
+    js/custom.js: {}
+

@@ -1,0 +1,26 @@
+{% if page.header %}
+  <header role="banner">HEADER
+    {{ page.header }}
+  </header>
+{% endif %}
+
+<main role="main">
+  <a id="main-content" tabindex="-1"></a>
+  {% if page.sidebar_first %}
+    {{ attach_library('cdp_theme/custom-styling') }}
+    <div class="item1 sidebar">SIDEBAR
+      {{ page.sidebar_first }}
+    </div>
+  {% endif %}
+  <div class="item2">
+    CONTENT
+    {{ page.content }}
+  </div>
+</main>
+
+{% if page.footer %}
+  <footer role="contentinfo" class="item3">FOOTER
+    {{ page.footer }}
+  </footer>
+{% endif %}
+</div>

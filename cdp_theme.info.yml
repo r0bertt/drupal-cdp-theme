@@ -1,0 +1,15 @@
+name: 'CDP page theme'
+type: theme
+description: 'A theme for a CDP page.'
+core: 8.x
+logo: images/logo.png
+screenshot: images/awesome.jpg
+
+libraries:
+  - cdp_theme/global-styling
+  - cdp_theme/global-scripts
+regions:
+  header: Header
+  sidebar_first: 'Sidebar first'
+  content: Content
+  footer: Footer
